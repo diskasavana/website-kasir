@@ -11,10 +11,41 @@
     <!-- 2. view all users -->
     <!-- 3. logout -->
     <h1>Dashboard</h1>
-    <a href="create.php">Create New User</a>
-    <a href="view.php">View All Users</a>
-    <a href="logout.php">Logout</a>
-    
+
+    create tabel user
+    <table>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>user1</td>
+            <td>
+                <a href="edit.php?id=1">edit</a>
+                <a href="delete.php?id=1">delete</a>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>user2</td>
+            <td>
+                <a href="edit.php?id=2">edit</a>
+                <a href="delete.php?id=2">delete</a>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>user3</td>
+            <td>
+                <a href="edit.php?id=3">edit</a>
+                <a href="delete.php?id=3">delete</a>
+            </td>
+
+        </tr>
+    </table>
+
     
 </body>
 </html>
